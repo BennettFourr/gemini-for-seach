@@ -87,18 +87,6 @@ function ChatGPTQuery(props: Props) {
         <ReactMarkdown rehypePlugins={[[rehypeHighlight, { detect: true }]]}>
           {answer.text}
         </ReactMarkdown>
-        {done && showTip && (
-          <p className="italic mt-2">
-            Enjoy this extension? Give us a 5-star rating at{' '}
-            <a
-              href="https://gemini4google.com/chrome?utm_source=rating_tip"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Chrome Web Store
-            </a>
-          </p>
-        )}
       </div>
     )
   }
