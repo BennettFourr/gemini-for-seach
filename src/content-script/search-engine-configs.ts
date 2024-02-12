@@ -64,7 +64,7 @@ export const config: Record<string, SearchEngine> = {
   },
   brave: {
     inputQuery: ["input[name='q']"],
-    sidebarContainerQuery: ['filters-container"'],
+    sidebarContainerQuery: ['infobox-snippet"'],
     appendContainerQuery: [],
   },
   searx: {
