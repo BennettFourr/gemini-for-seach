@@ -59,25 +59,6 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
           <img src={logo} className="w-10 h-10 rounded-lg" />
           <span className="font-semibold">Gemini for Google (v{getExtensionVersion()})</span>
         </div>
-        <div className="flex flex-row gap-3">
-          <a
-            href="https://github.com/tudoujunha/gemini-google-extension/issues"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Feedback
-          </a>
-          <a href="https://twitter.com/tudoujunha" target="_blank" rel="noreferrer">
-            Twitter
-          </a>
-          <a
-            href="https://github.com/tudoujunha/gemini-google-extension"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Source code
-          </a>
-        </div>
       </nav>
       <main className="w-[500px] mx-auto mt-14">
         <Text h2>Options</Text>
