@@ -21,17 +21,6 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['.results--sidebar.js-results-sidebar'],
     appendContainerQuery: ['#links_wrapper'],
   },
-  kagi: {
-    inputQuery: ["input[name='q']"],
-    sidebarContainerQuery: ['.right-content-box._0_right_sidebar'],
-    appendContainerQuery: ['#_0_app_content'],
-  },
-  },
-  naver: {
-    inputQuery: ["input[name='query']"],
-    sidebarContainerQuery: ['#sub_pack'],
-    appendContainerQuery: ['#content'],
-  },
   brave: {
     inputQuery: ["input[name='q']"],
     sidebarContainerQuery: ['infobox-snippet"'],
