@@ -23,13 +23,10 @@
     {
       "matches": [
         "https://www.google.com/search*",
-        "https://kagi.com/search*",
         "https://www.bing.com/search*",
         "https://cn.bing.com/search*",
-        "https://search.naver.com/search*",
         "https://search.brave.com/search*",
         "https://duckduckgo.com/*",
-        "https://www.baidu.com/*",
         "https://searx.be/search*",
         "https://www.startpage.com/sp/search?*"
       ],
