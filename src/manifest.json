@@ -5,10 +5,7 @@
   "version": "0.1.3",
   "manifest_version": 3,
   "icons": {
-    "16": "logo.png",
-    "32": "logo.png",
-    "48": "logo.png",
-    "128": "logo.png"
+    "512": "logo.png",
   },
   "host_permissions": ["https://*.openai.com/"],
   "permissions": ["storage"],
