@@ -2,7 +2,7 @@
   "name": "__MSG_appName__",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "manifest_version": 2,
   "icons": {
     "512": "logo.png"
@@ -19,11 +19,6 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/search*",
-        "https://www.bing.com/search*",
-        "https://search.brave.com/search*",
-        "https://duckduckgo.com/*",
-        "https://searx.be/search*",
         "https://www.startpage.com/sp/search?*"
       ],
       "js": ["content-script.js"],
